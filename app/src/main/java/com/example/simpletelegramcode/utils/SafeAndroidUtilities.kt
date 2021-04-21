@@ -102,7 +102,7 @@ class SafeAndroidUtilities {
                     return SpannableStringBuilder.valueOf("...").append(sub)
                 }
             } catch (e: Exception) {
-                //FileLog.e(e);
+                FileLog.e(e);
             }
             return finalText
         }
