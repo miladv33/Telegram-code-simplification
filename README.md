@@ -1,2 +1,2 @@
 # Telegram-code-simplification
-This is a small project for simplification telegram source code. it is not going to be a messenger, it just created to understand what makes the Telegram app smootht and fastes
+This is a small project for simplification telegram source code. it is not going to be a messenger, it just created to understand what makes the Telegram app smooth and fastest
