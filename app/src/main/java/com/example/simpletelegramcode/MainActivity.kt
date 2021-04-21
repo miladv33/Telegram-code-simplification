@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.FrameLayout
 import androidx.appcompat.app.AppCompatActivity
+import com.example.simpletelegramcode.utils.SafeAndroidUtilities
 
 class MainActivity : AppCompatActivity() {
 
@@ -21,7 +22,10 @@ class MainActivity : AppCompatActivity() {
             )
         )
         val simpleButton = Button(this)
-        simpleButton.text = "Button"
+        simpleButton.text = "my father my fathermy father "
+        simpleButton.text =
+            SafeAndroidUtilities.ellipsizeCenterEnd(simpleButton,
+                "my father",100,10)
         frameLayout.addView(simpleButton)
     }
 }
