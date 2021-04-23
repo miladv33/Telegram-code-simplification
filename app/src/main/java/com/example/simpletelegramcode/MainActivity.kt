@@ -2,6 +2,7 @@ package com.example.simpletelegramcode
 
 import android.media.MediaPlayer
 import android.os.Bundle
+import android.util.Log
 import android.view.SurfaceHolder
 import android.view.ViewGroup
 import android.widget.Button
